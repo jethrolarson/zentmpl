@@ -1,7 +1,11 @@
-Examples
-========
+zentmpl
+=======
+MIT or GPL Version 2 licenses. Like jQuery http://jquery.org/license
 
-    var tm = "Hello, <%=this.name%>";
+Examples
+--------
+
+    var tm = "Hello, {%=this.name%}";
     var data = {"name":"jethro"};
 
 Most performant for repeated use
@@ -19,7 +23,7 @@ Use with jQuery
 
 One-liner with jquery
 
-    $("ul").html(zentmpl("Hello, <%=this.name%>")({"name":"jethro"}));
+    $("ul").html(zentmpl("Hello, {%=this.name%}")({"name":"jethro"}));
 
 As jquery plugin
 
