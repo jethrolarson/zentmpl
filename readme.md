@@ -1,6 +1,6 @@
 zentmpl
 =======
-MIT or GPL Version 2 licenses. Like jQuery http://jquery.org/license
+MIT or GPL Version 2 licenses. Like jQuery <http://jquery.org/license>
 
 Examples
 --------
