@@ -1,5 +1,7 @@
 zentmpl
 =======
+Adapted from http://ejohn.org/blog/javascript-micro-templating/
+
 MIT or GPL Version 2 licenses. Like jQuery <http://jquery.org/license>
 
 Examples
