@@ -6,12 +6,12 @@ Examples
 
 Most performant for repeated use
 
-    var hiTemplate = tmpl(tm);
+    var hiTemplate = zentmpl(tm);
     hiTemplate(data);
   
 Single Use
 
-    tmpl(tm)(data);
+    zentmpl(tm)(data);
 
 Use with jQuery
 
@@ -19,8 +19,8 @@ Use with jQuery
 
 One-liner with jquery
 
-    $("ul").html(tmpl("Hello, <%=this.name%>")({"name":"jethro"}));
+    $("ul").html(zentmpl("Hello, <%=this.name%>")({"name":"jethro"}));
 
 As jquery plugin
 
-    $.tmpl = tmpl;
+    $.tmpl = zentmpl;
