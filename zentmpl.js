@@ -1,5 +1,6 @@
 /*: Simple javascript templating
   Adapted from John Resig's microtemplates
+  #license MIT or GPL Version 2 licenses. Like jQuery http://jquery.org/license
   #takes: 
     @tm:
       #string text of template
